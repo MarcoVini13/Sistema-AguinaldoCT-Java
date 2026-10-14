@@ -1,40 +1,49 @@
-# 💼 Sistema de Aguinaldo - Java Swing
+# 💼 Aguinaldo Management System - Java Swing
 
-## Aplicación de escritorio desarrollada en **Java** bajo el entorno de **Java Swing**, diseñada para automatizar el cálculo de aguinaldos para los colaboradores de una empresa, integrando una interfaz gráfica moderna, menús interactivos, términos y condiciones legales, y selección personalizada de departamentos y antigüedad.
+Desktop application developed in **Java** using **Java Swing**, designed to automate holiday bonus (aguinaldo) calculations for company employees. It features a modern graphical user interface, interactive menus, legal terms & conditions compliance, and custom department and seniority selection.
 
-Desarrollado bajo el sello de **Code Tec - Future Apps**.
-## ✨ Características Principales
-1. Control de Acceso y Licenciamiento:
-2. Ventana de bienvenida interactiva con captura de usuario.
-3. Módulo formal de Términos y Condiciones con aceptación obligatoria mediante casilla de verificación para habilitar el uso del software.
-4. Pantalla de Cálculo Dinámica:
-5. Captura completa de datos del trabajador (Nombre, Apellido Paterno y Apellido Materno).
-6. Listas desplegables optimizadas para el cálculo de acuerdo a políticas internas de la empresa:
-7. Antigüedad: Menos de 1 año, 1 año, de 3 a 6 años, y más de 7 años de servicio.
-8. Departamentos: Programación, Diseño, Científico Matemático, Atención a Cliente, Recursos Humanos y Gerencia.
-9. Área de resultados detallada con scroll y desglose automático del monto a recibir.
+Developed under the **Code Tec - Future Apps** brand.
 
-## Menú de Opciones Avanzadas:
-Opciones: Personalización visual con cambio dinámico de color de fondo (Blanco o Negro), opción de limpiar formulario (Nuevo) y cierre seguro de sesión (Salir).
-Calcular: Acceso directo al núcleo de procesamiento de datos.
-Acerca de: Información corporativa y de autoría.
+---
 
-🛠️ Tecnologías y Herramientas
-Lenguaje: Java (POO)
+## ✨ Key Features
 
-Interfaz Gráfica: Java Swing (JFrame, JPanel, JComboBox, JTextArea, JMenuBar, JCheckBox)
+1. **Access Control & Licensing:**
+   * Interactive welcome screen with user login capture.
+   * Formal Terms & Conditions module requiring mandatory acceptance via checkbox to enable software access.
 
-IDE / Entorno: Visual Studio Code / Terminal (JDK)
+2. **Dynamic Calculation Module:**
+   * Full employee data input (First Name, Paternal Last Name, Maternal Last Name).
+   * Optimized dropdown selectors for tailored calculations based on internal company policies:
+     * **Seniority:** Less than 1 year, 1 year, 3 to 6 years, and 7+ years of service.
+     * **Department:** Programming, Design, Mathematical Science, Customer Service, Human Resources, and Management.
+   * Detailed output area with scroll functionality providing an automatic itemized breakdown of the final payout amount.
 
-Arquitectura: Diseño modular basado en eventos y formularios GUI.
+3. **Advanced Navigation Menu:**
+   * **Options:** Visual customization with dynamic background color toggling (White or Black), form clearing (`New`), and secure session logout (`Exit`).
+   * **Calculate:** Direct shortcut to the core data-processing engine.
+   * **About:** Corporate info and author metadata.
 
-📦 Ejecución del Proyecto
-Descarga el archivo Sistema.jar directamente desde este repositorio.
+---
 
-Asegúrate de tener instalado Java (JRE/JDK) en tu computadora.
+## 🛠️ Tech Stack & Tools
 
-Haz doble clic sobre el archivo .jar para ejecutar la aplicación de forma independiente.
-(O si prefieres revisar el código, puedes explorar las clases .java dentro del repositorio).
+* **Language:** Java (OOP)
+* **GUI Framework:** Java Swing (`JFrame`, `JPanel`, `JComboBox`, `JTextArea`, `JMenuBar`, `JCheckBox`)
+* **IDE / Environment:** Visual Studio Code / Terminal (JDK)
+* **Architecture:** Event-driven modular GUI design
 
-📄 Licencia y Derechos
-© 2026 Code Tec - Company. Todos los derechos reservados. Prohibida su venta o distribución sin autorización del autor.
+---
+
+## 📦 How to Run
+
+1. Download the `Sistema.jar` executable directly from this repository.
+2. Ensure you have **Java (JRE/JDK)** installed on your machine.
+3. Double-click the `.jar` file to launch the application independently.  
+*(Alternatively, you can explore the `.java` source files inside the repository).*
+
+---
+
+## 📄 License & Rights
+
+© 2026 Code Tec - Company. All rights reserved. Unauthorized sale or distribution without author permission is strictly prohibited.
